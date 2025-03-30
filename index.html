@@ -12,35 +12,34 @@
 </head>
 <body>
 
-    <main class="container mt-5 mb-5">   
+    <main class="container mt-5 mb-5">
         <h1 class="animate__animated animate__backInLeft mb-5 text-center text-uppercase">Let's Get You Signed Up!</h1>
-    <div class="row justify-content-center p-5 shadow rounded">
-        <div class="col-md-6">
-
-            <form id="registration-form">
-                <div class="mb-3">
-                  <label for="username" class="form-label">Username</label>
-                  <input type="text" class="form-control" id="username" placeholder="Pick a cool username">
-                </div>
-          
-                <div class="mb-3">
-                  <label for="password" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Make it impossible to guess">
-                </div>
-          
-                <button type="button" class="btn btn-custom mt-4 text-uppercase" onclick="validateForm()">Register</button>
-              </form>
-          
-          
+        <div class="row justify-content-center p-5 shadow rounded">
+            <div class="col-md-6">
+    
+                <form id="registration-form">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Pick a cool username">
+                    </div>
+    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Make it impossible to guess">
+                    </div>
+    
+                    <button type="button" class="btn btn-custom mt-4 text-uppercase" onclick="validateForm()">Register</button>
+                </form>
+    
+            </div>
+    
+            <div class="col-md-6 p-5 text-center">
+                <p class="lead text-danger" id="error-message"></p>
+                <h3 class="h3-custom" id="confirmation-message"></h3>
+            </div>
         </div>
-
-        <div class="col-md-6 p-5 text-center">
-            <p class="lead text-danger" id="error-message"></p>
-            <h3 class="text-success" id="confirmation-message"></h3>
-        </div>
-    </div>
-
-</main>
+    
+    </main>
     
 </body>
 </html>

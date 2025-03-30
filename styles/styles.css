@@ -19,6 +19,11 @@ body {
     color: #ffffff;
 }
 
+.h3-custom {
+    color: #5a7b60;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
 
 h1 {
     color: #445D48;
